@@ -477,7 +477,7 @@ footer img{
 
 /*Barra navegación*/
 nav {
-    height: 7vh !important;
+    height: 7% !important;
 }
 
 /*oculto links del menu*/
@@ -490,7 +490,7 @@ nav {
     display: flex;
     position: absolute;
     right: 0;
-    margin: 12px;
+    margin: 3%;
     width: 35px;
 }
 /*Btn cerrar menu*/
@@ -547,11 +547,11 @@ nav {
 
 /*Presentación*/
 .home{
-    height: 80vh;
+    height: 100vh;
 }
 .homePresentacion{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     padding: 0;
   }
 .home-icon{
@@ -563,7 +563,7 @@ nav {
 
 /*Sección Seguros*/
 .titulo-seguros{
-    font-size: 30px;
+    font-size: 25px;
     width: 70%;
 }
 .card .overlay{
@@ -577,7 +577,7 @@ nav {
 }
 
 .sect-empresas{
-    height: 70vh;
+    height: 90vh;
 }
 .sect-empresas .empresas-flex img{
     width: 30%;
@@ -588,14 +588,16 @@ nav {
 
 /*Sección contacto*/
 .titulo-contacto{
-    font-size: 30px;
+    font-size: 25px;
     width: 70%;
 }
 
+.redes-flex{
+    height: max-content;
+}
 .contacto-flex{
     display: flex;
     flex-direction: column;
-  
 }
 
 .img-flex{
@@ -605,6 +607,10 @@ nav {
 
 .list-redes{
     width: 100%;
+}
+
+.list-redes li{
+    font-size: 17px;
 }
 
 /*Sección ubicación*/
