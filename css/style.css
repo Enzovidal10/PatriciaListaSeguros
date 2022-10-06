@@ -495,7 +495,7 @@ nav {
 }
 /*Btn cerrar menu*/
 .btn-hamburguer2{
-    margin:0px 15px;
+    margin:15px;
     position: absolute;
     right: 0;
     width: 25px;
@@ -634,6 +634,7 @@ footer img{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 650px;
 }
 .info{
     width: 90%;
@@ -646,6 +647,10 @@ footer img{
 .img{
     margin-top: 40px;
     width: 100%;
+}
+.img img{
+    object-fit: cover;
+    height: 250px;
 }
 }
 
