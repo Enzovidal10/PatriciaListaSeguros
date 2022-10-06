@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
 }
 
+
 header{
     display: flex;
     flex-direction: column; 
@@ -22,9 +23,6 @@ header{
 
 /*Menu hamburguesa y botones del menu*/
 .btn-hamburger{
-    display: none;
-}
-.hamburger{
     display: none;
 }
 
@@ -46,6 +44,7 @@ header{
     background-color: #1a1a1a;
     width: 100%;
     height: 7vh;
+    overflow-x: hidden;
 }
 
 .item-menu{
@@ -377,12 +376,21 @@ article {
 .ubi-flex .btn {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center; 
+}
   
-.ubi-flex .btn img {
+.ubi-flex .btn img{
     width: 50px;
-    margin-top: 20px; }
-  
+    margin-top: 40px; 
+    box-shadow: #1a1a1a 3px 3px 15px;
+    border-radius: 100%;
+    border: #603F26 solid 1px;
+    transition: 0.5s ease transform;
+}
+.ubi-flex .btn img:hover{
+    transform: translateY(-10px);
+} 
+
 .footer-flex{
     display: flex;
     flex-direction: column;
@@ -489,7 +497,7 @@ nav {
 }
 
 .menu{
-   z-index: 997;
+   z-index: 998;
 }
 /*oculto links del menu*/
 .menu a{
@@ -521,24 +529,23 @@ nav {
 
 /*Menu hamburguesa*/
 .hamburger{
-    display: flex;
+    z-index: 997;
     position:absolute;
-    flex-direction: column;
     width: 100%;
     height: max-content;
     background-color: #1a1a1a;
     right: 0;
     bottom: 0;
     top: 16vh; 
-    transform: translateX(200%);
-    transition: 0.7s ease;
+    transform: translateY(-100vh);
+    transition: 0.5s ease;
     }
 
 /*Activar menu*/
 .active{
-    transform: translateX(0%);
-    border-bottom: #F5F5F5 solid 1px;
-    border-top: #F5F5F5 solid 1px;
+    transform: translateY(0%);
+    border-bottom: #603F26 solid 1px;
+    border-top: #603F26 solid 1px;
 }  
 
 /*Estilos Menú hamburguesa*/
@@ -557,7 +564,7 @@ nav {
   }
 
 .hamburger a i{
-    color:#A68B6A ;
+    color:#603F26 ;
     margin: 15px;
   }
 .hamburger a:hover{
