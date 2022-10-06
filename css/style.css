@@ -490,12 +490,12 @@ nav {
     display: flex;
     position: absolute;
     right: 0;
-    margin: 3%;
+    margin: 0px 3%;
     width: 35px;
 }
 /*Btn cerrar menu*/
 .btn-hamburguer2{
-    margin:15px;
+    margin:0px 15px;
     position: absolute;
     right: 0;
     width: 25px;
