@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Alata&family=Black+Ops+One&family=Carter+One&family=Courgette&family=Exo+2&family=Francois+One&family=Fredoka&family=Fredoka+One&family=Kalam&family=Lalezar&family=Mali:wght@400;600&family=Marcellus+SC&family=Maven+Pro&family=Merienda:wght@700&family=Odor+Mean+Chey&family=Patua+One&family=Paytone+One&family=Press+Start+2P&family=Righteous&family=Roboto&family=Syncopate&family=ZCOOL+QingKe+HuangYou&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&family=Fira+Sans+Extra+Condensed:wght@500&family=Josefin+Sans:wght@300;400&family=Kalam:wght@400;700&family=Montserrat:ital@0;1&family=Righteous&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* font-family: 'Advent Pro', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif; */
 
 *{
     margin: 0;
@@ -25,7 +33,9 @@ header{
 .btn-hamburger{
     display: none;
 }
-
+.hamburger{
+    display: none;
+}
 .btn-home{
     display: none;
 }
@@ -44,7 +54,6 @@ header{
     background-color: #1a1a1a;
     width: 100%;
     height: 7vh;
-    overflow-x: hidden;
 }
 
 .item-menu{
@@ -54,6 +63,7 @@ header{
     align-items: center;
     text-decoration: none;
     color: white;
+    font-family: 'Advent Pro', sans-serif;
     width: 10%;
     height: 100%;
 }
@@ -112,7 +122,7 @@ header{
     font-size: medium;
     margin-top: 20px;
     text-align: center;
-    font-family: "Maven Pro", sans-serif;
+    font-family: 'Kalam', cursive;
     font-size: 20px;
     padding: 0 20px;
     color: #A68B6A;
@@ -121,6 +131,7 @@ header{
 .home-lista{
     margin-top: 10%;
     font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
     color: #640B00;
 }
 
@@ -152,8 +163,8 @@ header{
     color: black;
     width: 500px;
     margin-bottom: 50px;
-    font-size: 30px;
-    font-family: "Maven Pro", sans-serif;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
     border-bottom: #640B00 2px solid;
 }
 
@@ -180,7 +191,7 @@ article {
     justify-content: center;
     width: 300px;
     margin: 10px; }
-  
+
 .card {
     position: relative;
     display: flex;
@@ -222,7 +233,7 @@ article {
     color: white;
     padding: 8px 30px;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: 35%; }
   
 .card .overlay:hover {
@@ -239,7 +250,7 @@ article {
     padding: 2px;
     margin-right: 110px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     border-bottom: solid 2px white;
     margin-bottom: 5px;
     margin-top: 6px; }
@@ -252,7 +263,7 @@ article {
     width: 500px;
     margin: 50px 0;
     font-size: 30px;
-    font-family: "Maven Pro", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     border-bottom: #640B00 2px solid;
 }
 .sect-empresas {
@@ -288,8 +299,8 @@ article {
     text-align: center;
     width: 500px;
     margin-bottom: 50px;
-    font-size: 30px;
-    font-family: "Maven Pro", sans-serif;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
     border-bottom: #640B00 2px solid;
 }
 .redes-flex {
@@ -327,7 +338,7 @@ article {
     margin-left: 60px;
     margin-top: 15px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     list-style: none; }
   
 .icon-contacto {
@@ -352,7 +363,7 @@ article {
     width: 500px;
     margin-bottom: 50px;
     font-size: 30px;
-    font-family: "Maven Pro", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     border-bottom: #640B00 2px solid;
   }
   
@@ -403,11 +414,12 @@ article {
     margin-bottom: 15px;
     border-bottom: #640B00 solid 2px;
     width: 200px;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
 footer {
     background-color: rgba(0, 0, 0, 0.863);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     height: max-content;
     text-align: center;
@@ -432,33 +444,39 @@ footer img{
     display: flex;
     flex-direction: row;
     height: 75vh;
-    background-color: white;
+    background-color:white;
     border-bottom: #000000 solid 1px;
   }
 
 .info{
     width: 50%;
-    margin-top: 7%;
+    height: max-content;
+    margin-top: 4%;
     margin-left: 50px;
+    border: #603F26 solid 2px;
+    background-color:white;
+    box-shadow: #1a1a1a 10px 10px 5px;
+    padding: 40px 20px;
   }
   
 .info h3{
     font-size: 35px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Josefin Sans', sans-serif;
     border-bottom: #640B00 solid 2px;
     width: max-content;
   }
 
 .info p{
-  font-size: 18px;
-  padding: 25px 0;
-  padding-right: 25px;
-  margin-bottom: 40px;
+    font-size: 18px;
+    padding: 25px 0;
+    padding-right: 25px;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn-info{
   padding: 12px;
-  background-color: #640B00;
+  background-color: #603F26;
   width: 200px;
   text-decoration: none;
   color: white;
@@ -466,6 +484,7 @@ footer img{
   border-radius: 25px 25px 25px 25px;
   border: solid 1px #1a1a1a;
   transition: 0.5s ease;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn-info:hover{
@@ -479,17 +498,17 @@ footer img{
 .img img{
     width: 100%;
     height: 100%;
-    border-radius: 550px 0 0 550px;
-    object-fit:contain;
+    clip-path: polygon(31% 0, 100% 0, 75% 100%, 0% 100%);
+    object-fit:cover;
   }
 
 
 /*Responsive Mobile*/
 @media (max-width:480px) {
 
-    .home{
-        background-image: url(../img/fondomobile.png);
-    }
+.home{
+    background-image: url(../img/fondomobile.png);
+}
 /*Barra navegación*/
 nav {
     height: 7% !important;
@@ -507,9 +526,10 @@ nav {
 /*Boton inicio*/
 #link-home{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     position: absolute;
     left: 0;
-    top: 10vh;
 }
 .btn-home{
     display: flex;
@@ -529,6 +549,8 @@ nav {
 
 /*Menu hamburguesa*/
 .hamburger{
+    display: flex;
+    flex-direction: column;
     z-index: 997;
     position:absolute;
     width: 100%;
@@ -536,7 +558,7 @@ nav {
     background-color: #1a1a1a;
     right: 0;
     bottom: 0;
-    top: 16vh; 
+    top: 13%; 
     transform: translateY(-100vh);
     transition: 0.5s ease;
     }
@@ -684,3 +706,215 @@ footer img{
 }
 }
 
+
+
+
+/*Responsive de Tablet*/
+@media (min-width:481px) and (max-width:1023px){
+    .home{
+        background-image: url(../img/fondotablet.png);
+    }
+    /*Barra navegación*/
+    nav {
+        height: 5% !important;
+        z-index: 999;
+    }
+    
+    .menu{
+       z-index: 998;
+       height: 5vh;
+    }
+    /*oculto links del menu*/
+    .menu a{
+        display: none;
+    }
+    
+    /*Boton inicio*/
+    #link-home{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        left: 0;
+    }
+    .btn-home{
+        display: flex;
+        position: absolute;
+        width: 35px;
+        margin: 0 10px;
+    }
+    
+    /*Btn abrir menu*/
+    .btn-hamburger{
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin: 0px 3%;
+        width: 35px;
+    }
+    
+    /*Menu hamburguesa*/
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        z-index: 997;
+        position:absolute;
+        width: 100%;
+        height: max-content;
+        background-color: #1a1a1a;
+        right: 0;
+        bottom: 0;
+        top: 10%; 
+        transform: translateY(-100vh);
+        transition: 0.5s ease;
+        }
+    
+    /*Activar menu*/
+    .active{
+        transform: translateY(0%);
+        border-bottom: #603F26 solid 1px;
+        border-top: #603F26 solid 1px;
+    }  
+    
+    /*Estilos Menú hamburguesa*/
+    .hamburger a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font: weight bold;
+        width: 100%;
+        height: 70px;
+      }
+    
+    .hamburger a i{
+        color:#603F26 ;
+        margin: 15px;
+      }
+    .hamburger a:hover{
+      background-color:#A68B6A;
+     }
+    
+    .hamburger a:hover i{
+      color: #1a1a1a;
+     }
+    
+    /*Presentación*/
+    .home{
+        height: 80vh;
+    }
+    .home-lista{
+        margin-top: 5%;
+        font-size: 23px;
+    }
+    .homePresentacion{
+        width: 100vw;
+        height: 80vh;
+        padding: 0;
+      }
+    .home-icon{
+        width: 50vw;
+    }
+    .titulo-p{
+        margin-bottom: 10%;
+    }
+    
+    /*Sección Seguros*/
+    .titulo-seguros{
+        font-size: 30px;
+        width: 70%;
+    }
+    .card .overlay{
+        opacity: 1;
+    }
+    
+    /*Sección empresas*/
+    .titulo-empresas{
+        font-size: 30px;
+        width: 70%;
+    }
+    
+    .sect-empresas{
+        height: 60vh;
+    }
+    .sect-empresas .empresas-flex img{
+        width: 20%;
+    }
+    #img-hdi{
+        width: 10%;
+    }
+    
+    /*Sección contacto*/
+    .titulo-contacto{
+        font-size: 30px;
+        width: 70%;
+    }
+    
+    .redes-flex{
+        height: max-content;
+    }
+    .contacto-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-flex{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .list-redes{
+        width: 50%;
+    }
+    
+    .list-redes li{
+        font-size: 17px;
+    }
+    
+    /*Sección ubicación*/
+    .titulo-ubicacion{
+        font-size: 30px;
+        width: 70%;
+    }
+    .ubi-flex .flex-map .mapa{
+        width: 90vw;
+        height: 350px;
+    }
+    
+    footer img{
+      display: none;
+    }
+    
+    /*Secciones*/
+    
+    .main-secciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 720px;
+    }
+    .info{
+        width: 90%;
+        margin-left: 0;
+    }
+    .info h3{
+        font-size: 35px;
+    }
+    .info p{
+        font-size: 22px;
+    }
+    .img{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .img img{
+        object-fit: cover;
+        height: 250px;
+    }
+    }
+  
