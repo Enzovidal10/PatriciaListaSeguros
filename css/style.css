@@ -8,6 +8,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Righteous', cursive;
 font-family: 'Roboto', sans-serif; */
 
+:root{
+    --color-p:#603F26;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -70,13 +74,12 @@ header{
 
 
 .item-menu:hover{
-    border-top: #A68B6A 2px solid;
     background-color: rgb(20, 20, 20);
 }
 
 /*icono del item*/
 .item-menu i{
-    color: #A68B6A;
+    color: var(--color-p);
     padding: 0 5px;
 }
 
@@ -115,7 +118,7 @@ header{
     position:relative;
     width: 400px;
     margin-top: 50px;
-    border-bottom: 2px #640B00 solid;
+    border-bottom: 2px var(--color-p) solid;
 }
 
 .titulo-p{
@@ -125,14 +128,14 @@ header{
     font-family: 'Kalam', cursive;
     font-size: 20px;
     padding: 0 20px;
-    color: #A68B6A;
+    color: var(--color-p);
 }
 
 .home-lista{
     margin-top: 10%;
     font-size: 20px;
     font-family: 'Advent Pro', sans-serif;
-    color: #640B00;
+    color: var(--color-p);
 }
 
 .home-lista li{
@@ -165,7 +168,7 @@ header{
     margin-bottom: 50px;
     font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
-    border-bottom: #640B00 2px solid;
+    border-bottom: var(--color-p) 2px solid;
 }
 
 .sect-cards{
@@ -264,7 +267,7 @@ article {
     margin: 50px 0;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    border-bottom: #640B00 2px solid;
+    border-bottom: var(--color-p) 2px solid;
 }
 .sect-empresas {
     height: 80vh;
@@ -301,7 +304,7 @@ article {
     margin-bottom: 50px;
     font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
-    border-bottom: #640B00 2px solid;
+    border-bottom: var(--color-p) 2px solid;
 }
 .redes-flex {
     display: flex;
@@ -364,7 +367,7 @@ article {
     margin-bottom: 50px;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    border-bottom: #640B00 2px solid;
+    border-bottom: var(--color-p) 2px solid;
   }
   
 .ubi-flex {
@@ -380,7 +383,7 @@ article {
      }
   
 .ubi-flex .flex-map .mapa {
-    border: solid #640B00 2px;
+    border: solid var(--color-p) 2px;
     width: 60vw;
     height: 400px; }
   
@@ -412,7 +415,7 @@ article {
   
 .footer-flex h3{
     margin-bottom: 15px;
-    border-bottom: #640B00 solid 2px;
+    border-bottom: var(--color-p) solid 2px;
     width: 200px;
     font-family: 'Josefin Sans', sans-serif;
   }
@@ -462,7 +465,7 @@ footer img{
 .info h3{
     font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
-    border-bottom: #640B00 solid 2px;
+    border-bottom: var(--color-p) solid 2px;
     width: max-content;
   }
 
@@ -590,7 +593,7 @@ nav {
     margin: 15px;
   }
 .hamburger a:hover{
-  background-color:#A68B6A;
+  background-color:var(--color-p);
  }
 
 .hamburger a:hover i{
@@ -796,7 +799,7 @@ footer img{
         margin: 15px;
       }
     .hamburger a:hover{
-      background-color:#A68B6A;
+      background-color:var(--color-p);
      }
     
     .hamburger a:hover i{
