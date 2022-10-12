@@ -492,7 +492,7 @@ footer img{
 
 .btn-info:hover{
   background-color: #1a1a1a;
-  border: solid 1px white;
+  border: solid 1px #603F26;
 }
 .img{
     width: 50%;
@@ -689,10 +689,10 @@ footer img{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 720px;
+    height: 820px;
 }
 .info{
-    width: 90%;
+    width: 80%;
     margin-left: 0;
 }
 .info h3{
@@ -708,8 +708,6 @@ footer img{
     height: 250px;
 }
 }
-
-
 
 
 /*Responsive de Tablet*/
@@ -899,7 +897,7 @@ footer img{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 720px;
+        height: 780px;
     }
     .info{
         width: 90%;
@@ -917,7 +915,7 @@ footer img{
     }
     .img img{
         object-fit: cover;
-        height: 250px;
+        height: 280px;
     }
     }
   
