@@ -704,8 +704,8 @@ footer img{
     width: 100%;
 }
 .img img{
-    object-fit: cover;
-    height: 250px;
+    object-fit:cover;
+    height: 290px;
 }
 }
 
@@ -914,8 +914,8 @@ footer img{
         width: 100%;
     }
     .img img{
-        object-fit: cover;
-        height: 280px;
+        object-fit:scale-down;
+        height: 320px;
     }
     }
   
